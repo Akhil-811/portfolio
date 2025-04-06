@@ -109,6 +109,11 @@ function openResume(event) {
   event.preventDefault(); // Prevent the default action (e.g., page reload)
   window.open('https://drive.google.com/file/d/1WKEOm_iXfDitcv2b08emxzBzytoeo8dm/view', '_blank');
 }
+function openprofile(event) {
+  event.preventDefault(); // Prevent the default action (e.g., page reload)
+  window.open('https://drive.google.com/file/d/11Bza1qHDMZ8BZlpplyJXixha7DjR9Mlo/view', '_blank');
+}
+
 
 function toggleSidebar() {
   const sidebarContent = document.getElementById('sidebar-content');
