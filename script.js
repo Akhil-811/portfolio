@@ -107,7 +107,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 function openResume(event) {
   event.preventDefault(); // Prevent the default action (e.g., page reload)
-  window.open('https://drive.google.com/file/d/1WKEOm_iXfDitcv2b08emxzBzytoeo8dm/view', '_blank');
+  window.open('https://drive.google.com/file/d/1DHtmewOWqe2fBjk5DGfNYDd4i7jYbrJ3/view?usp=sharing', '_blank');
 }
 function openprofile(event) {
   event.preventDefault(); // Prevent the default action (e.g., page reload)
