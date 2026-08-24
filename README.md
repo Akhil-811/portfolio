@@ -1,26 +1,20 @@
-# Eruva Akhil — Portfolio v2
+# Eruva Akhil — Portfolio V2.1
 
-A dependency-free, GitHub Pages-ready personal portfolio.
+A GitHub Pages-ready personal portfolio for Eruva Akhil, built as a dependency-free static site.
 
-## Deploy to GitHub Pages
+## Deploy
+Upload the repository-root files to `Akhil-811/portfolio` on the `main` branch:
+- `index.html`
+- `styles.css`
+- `script.js`
+- `README.md`
+- `Eruva-Akhil-Resume.pdf`
+- `assets/profile.jpg`
 
-1. Create/use a repository for the portfolio.
-2. Upload `index.html`, `styles.css`, `script.js`, the `assets/` folder and `Eruva-Akhil-Resume.pdf`.
-3. In GitHub: **Settings → Pages → Deploy from a branch**.
-4. Select the branch containing these files and the `/ (root)` folder.
-5. Save. GitHub will provide the Pages URL.
+GitHub Pages is already enabled for the repository.
 
-## Before publishing
-
-- Review the project repository links and replace any generic GitHub links with exact repositories when available.
-- Confirm the résumé is the version you want publicly accessible.
-- Consider whether you want your email and photo public.
-- Update the "Currently exploring" section as your interests change.
-
-## Files
-
-- `index.html` — page content
-- `styles.css` — visual design and responsive layout
-- `script.js` — navigation, filters, reveal animations and lightweight background network
-- `assets/profile.jpg` — supplied professional portrait
-- `Eruva-Akhil-Resume.pdf` — supplied current résumé
+## Notes
+- The page uses the GitHub public API client-side to display a live snapshot of repositories.
+- If the API is rate-limited, the site falls back to a GitHub profile link.
+- Review public contact details and project links before publishing.
+- The current résumé is included as a public PDF.
