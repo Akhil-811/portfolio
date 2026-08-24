@@ -1,621 +1,345 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eruva Akhil</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- Ionicons CDN for icons -->
-    <script type="module" src="https://unpkg.com/ionicons@6.0.3/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@6.0.3/dist/ionicons/ionicons.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Eruva Akhil — AI/ML engineer building intelligent systems across machine learning, AI evaluation, software and edge AI.">
+  <meta name="theme-color" content="#070912">
+  <title>Eruva Akhil — AI / ML Engineer</title>
+  <link rel="preload" href="assets/profile.jpg" as="image">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <main>
-        <aside class="'sidebar" data-sidebar>
-            <div class="sidebar-info">
-                <figure class="avatar-box">
-                    <img src="Me2.jpg" alt="Eruva Akhil" width="100">
-                </figure>
-                <div class="info-content">
-                    <h1 class="name" title="Eruva Akhil">Eruva Akhil</h1>
-                    <p class="title">AI & IoT Solutions Engineer</p>
-                        <p class="title"> Smart Devices & Machine Learning Expert</p>
-                </div>
-                <button class="info_more-btn" data-sidebar-btn>
-                    <span>Show Contact</span>
-                    <ion-icon name="menu-outline"></ion-icon>
-                  </button>
-            </div>
-
-            <div class="sidebar-info_more visible" id="sidebar-content">
-                <div class="separator"></div>
-                <ul class="contacts-list">
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </div>
-                        <div class="contact-info">
-                            <a href="mailto:eruvaakku25@gmail.com" class="contact-link">
-                                <p class="contact-title">eruvaakku25@gmail.com</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </div>
-                        <div class="contact-info">
-                            <a href="https://www.linkedin.com/in/eruva-akhil/" class="contact-link">
-                                <p class="contact-title">LinkedIn</p>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="logo-github"></ion-icon>
-                        </div>
-                        <div class="contact-info">
-                            <a href="https://github.com/Akhil-811" class="contact-link">
-                                <p class="contact-title">GitHub</p>
-                            </a>
-                        </div>
-                    
-                    
-                </ul>
-            </div>
-        </aside>
-        <div class="main-content">
-            <nav class="navbar">
-                <ul class="navbar-list">
-                    <li class="navbar-item">
-                        <button class="navbar-link  active" data-nav-link>About</button>
-                    </li>
-                    <li class="navbar-item">
-                        <button class="navbar-link" onclick="openResume(event)">Resume</button>
-                    </li>
-                    </li>
-                    <li class="navbar-item">
-                        <button class="navbar-link" onclick="openprofile(event)">Profile</button>
-                    </li>
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Skills</button>
-                    </li>
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Projects</button>
-                    </li>
-                    <li class="navbar-item">
-                        <button class="navbar-link" data-nav-link>Achievements</button>
-                    </li>
-                </ul>
-            </nav>
-            <article class="about active" data-page="about">
-                <header>
-                    <h2 class="h2 article-title">About me</h2>
-                </header>
-                <section class="about-text">
-                    <p>
-                       As an AI enthusiast and lifelong learner, I am deeply invested in exploring the synergy between artificial intelligence, embedded systems, and cybersecurity, constantly pushing the boundaries of innovation. My journey in AI and IoT is driven by a passion for developing intelligent, real-time solutions that enhance security, automation, and user experience while addressing real-world challenges.
-                        <br>
-                       Beyond AI, my expertise in embedded systems and microcontroller programming allows me to engineer robust, scalable, and high-performance solutions tailored for smart devices and real-time applications. This multidisciplinary approach enables me to bridge the gap between cutting-edge AI research and practical implementations, transforming complex technological advancements into impactful, real-world solutions.
-                        <br>
-                        Collaboration and interdisciplinary problem-solving are at the core of my work, as I firmly believe that the most groundbreaking innovations emerge from diverse perspectives and collective expertise. By combining AI-driven analytics with IoT-powered automation, I strive to create secure, intelligent, and adaptive technologies that not only perform optimally but also align with real-world demands.
-                    </p>
-                </section>
-
-                <section class="service">
-
-                    <h3 class="h3 service-title">What I'm Interested</h3>
-
-                    <ul class="service-list">
-
-                        <li class="service-item">
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title"> Artificial Intelligence & Machine Learning</h4>
-
-                                <p class="service-item-text">
-                                    Exploring AI/ML techniques to develop intelligent solutions that enhance decision-making, automation, and user experience. Skilled in building models for sentiment analysis, fraud detection, and recommendation systems.
-                                </p>
-                            </div>
-
-                        </li>
-
-                        <li class="service-item">
-                            
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Data Structures, Algorithms & Problem Solving</h4>
-
-                                <p class="service-item-text">
-                                    Strong foundation in algorithmic problem-solving with expertise in A*, BFS, DFS, and optimization techniques. Passionate about competitive programming and designing efficient algorithms for real-world challenges.
-                                </p>
-                            </div>
-
-                        </li>
-
-                        <li class="service-item">
-                                
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Embedded Systems & IoT</h4>
-
-                                <p class="service-item-text">
-                                    Building intelligent IoT solutions for real-time monitoring and automation. Developed projects like MoonWatchW1 and PenBeat, integrating embedded systems with AI for enhanced safety and health monitoring.
-                                </p>
-                            </div>
-
-                        </li>
-
-                        <li class="service-item">
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Cloud Computing & Scalable Architectures</h4>
-
-                                <p class="service-item-text">
-                                    Leveraging cloud platforms to design scalable, secure, and high-performance solutions. Experienced in Azure tools and cloud-based application development.
-                                </p>
-                            </div>
-
-                        </li>
-
-                        <li class="service-item">
-
-
-                            <div class="service-content-box">
-                                <h4 class="h4 service-item-title">Software & Web Development</h4>
-
-                                <p class="service-item-text">
-                                    Developing robust, user-friendly applications with a strong backend architecture. Built platforms like a Battery Shopping Website with ReactJS, PostgreSQL, and Node.js, ensuring seamless e-commerce experiences.
-                                </p>
-                            </div>
-
-                        </li>
-
-                    </ul>
-
-                </section>
-            </article>
-            <article class="skills" data-page="skills">
-
-                <header>
-                    <h2 class="h2 article-title">Skills</h2>
-                </header>
-
-                <section class="skill">
-                    <div class="skill-grid">
-                        <div class="skill-category">
-                            <h3>Programming Languages</h3>
-                            <ul class="skills-list content-card" class="skills-list content-card">
-                                <li class="skills-item" class="skills-item">
-                                    Python
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="95" style="width: 95%;"></div>
-                                    </div>
-                                </li>
-                                <li class="skills-item">
-                                    SQL
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="85" style="width: 85%;"></div>
-                                    </div>
-                                </li>
-                                <li class="skills-item">
-                                    Java
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="75" style="width: 75%;"></div>
-                                    </div>
-                                </li>
-                                <li class="skills-item">
-                                    C
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="98" style="width: 98%;"></div>
-                                    </div>
-                                </li>
-                                <li class="skills-item">
-                                    R Programming
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="75" style="width: 75%;"></div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="skill-category">
-                            <h3>AI &amp; Machine Learning</h3>
-                            <ul class="skills-list content-card">
-                                <li class="skills-item">
-                                    LLM's
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="75" style="width: 85%;"></div>
-                                    </div>
-                                </li>
-                                <li class="skills-item">
-                                    Machine Learning
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="85" style="width: 85%;"></div>
-                                    </div>
-                                </li>
-                                <li class="skills-item">
-                                    Generative AI
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="80" style="width: 80%;"></div>
-                                    </div>
-                                </li>
-                                <li class="skills-item">
-                                    AI Agents
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="65" style="width: 65%;"></div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="skill-category">
-                            <h3>Frameworks &amp; Libraries</h3>
-                            <ul class="skills-list content-card">
-                                <li class="skills-item">
-                                    Scikit-Learn
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="90" style="width: 80%;"></div>
-                                    </div>
-                                </li>
-                                <li class="skills-item">
-                                    Pytorch
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="75" style="width: 80%;"></div>
-                                    </div>
-                                </li>
-                                <li class="skills-item">
-                                    React.js
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="85" style="width: 85%;"></div>
-                                    </div>
-                                </li>
-                                <li class="skills-item">
-                                    Node.js
-                                    <div class="skill-progress-bg">
-                                        <div class="skill-progress-fill" data-progress="75" style="width: 75%;"></div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="skill-category">
-                            <h3>Soft Skills</h3>
-                            <ul class="skills-list content-card">
-                                <li class="skills-item">
-                                    Problem-solving
-                                </li>
-                                <li class="skills-item">
-                                    Team collaboration
-                                </li>
-                                <li class="skills-item">
-                                    Effective communication
-                                </li>
-                                <li class="skills-item">
-                                    Time management
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </section>
-
-            </article>
-
-            <article class="projects" data-page="projects">
-
-                <header>
-                    <h2 class="h2 article-title">Projects</h2>
-                </header>
-
-                <section class="project">
-
-                    <ul class="filter-list">
-
-                        <li class="filter-item">
-                            <button class="active" data-filter-btn>All</button>
-                        </li>
-
-                        <li class="filter-item">
-                            <button data-filter-btn>AI</button>
-                        </li>
-
-                        <li class="filter-item">
-                            <button data-filter-btn>ML</button>
-                        </li>
-
-                        <li class="filter-item">
-                            <button data-filter-btn>Web Development</button>
-                        </li>
-
-                        <li class="filter-item">
-                            <button data-filter-btn>IOT &  Microcontrollers</button>
-                        </li>
-
-                    </ul>
-
-                    <div class="filter-select-box">
-
-                        <button class="filter-select" data-select>
-
-                            <div class="select-value" data-selecct-value>Select category</div>
-
-                            <div class="select-icon">
-                                <ion-icon name="chevron-down"></ion-icon>
-                            </div>
-
-                        </button>
-
-                        <ul class="select-list">
-                            <li class="select-item">
-                                <button data-select-item>All</button>
-                            </li>
-
-                            <li class="select-item">
-                                <button data-select-item>AI</button>
-                            </li>
-
-                            <li class="select-item">
-                                <button data-select-item>ML</button>
-                            </li>
-
-                            <li class="select-item">
-                                <button data-select-item>Web Development</button>
-                            </li>
-
-                            <li class="select-item">
-                                <button data-select-item>IOT &  Microcontrollers</button>
-                            </li>
-
-                        </ul>
-
-                    </div>
-
-                    <ul class="project-list">
-
-                        <li class="project-item content-card active" data-filter-item data-category="ai">
-                            <div class="project-content">
-                            <a href="#">
-                                
-                                    <h3 class="project-title">Authentify- A DeepFake Sentry</h3>
-
-                                    <p class="project-category">Authentify is an AI-powered deepfake detection project that
-                                        uses advanced techniques like CNNs and LSTMs to analyze audio and video for
-                                        anomalies, classifying content as real or fake.</p>
-                            </a>
-                        </div>
-                        </li>
-
-
-                        <li class="project-item content-card active" data-filter-item data-category="ai">
-                            <div class="project-content">
-                            <a href="https://github.com/Aniketh007/grid-repo">
-                                    <h3 class="project-title">Advanced Computer Vision Solution for Detection and QC
-                                    Automation</h3>
-
-                                <p class="project-category">This project leverages advanced AI techniques for image
-                                    analysis, focusing on object segmentation and classification to process and extract
-                                    detailed information from packed and unpacked items, such as groceries and household
-                                    products.</p>
-                            </a>
-                        </div>
-                        </li>
-
-                        <li class="project-item content-card active" data-filter-item data-category="ai">
-                            <div class="project-content">
-                            <a href="https://github.com/Aniketh007/Automated-Search">
-
-                                <div class="project-content">
-                                    <h3 class="project-title">Automated Search Application</h3>
-
-                                <p class="project-category">This web application allows users to upload and manage CSV
-                                    data, perform various data operations, and conduct automated searches. It utilizes
-                                    the Google Search API to retrieve contextual information and OpenAI GPT for
-                                    summarizing search results into concise, informative statements.</p>
-                            </a>
-                        </div>
-                        </li>
-                        <li class="project-item content-card active" data-filter-item data-category="IOT &  Microcontrollers">
-                            <div class="project-content">
-                            <a href="https://tinyurl.com/ysysubv4">
-                                
-                                    <h3 class="project-title">MoonWatchW1</h3>
-
-                                    <p class="project-category">Instant personal safety automation during medical emergencies, assaults or fires, administering
-semi-autonomous, adjustable, and verified SOS activation, coherent evidence collection and constant support,
-and an eagle-view visualization to track and respond to SOS calls.</p>
-                            </a>
-                        </div>
-                        </li>
-
-
-                        <li class="project-item content-card active" data-filter-item data-category="IOT &  Microcontrollers">
-                            <div class="project-content">
-                            <a href="https://tinyurl.com/9xfb6k52">
-                                    <h3 class="project-title">Hygieia – Autonomous Robotic Drug Delivery</h3>
-
-                                <p class="project-category">A self-driving robotic assistant designed to automate the delivery of prescribed medications in hospital environments, reducing manual intervention and enhancing safety.</p>
-                            </a>
-                        </div>
-                        </li>
-
-
-                        <li class="project-item content-card active" data-filter-item data-category="ml">
-                            <div class="project-content">
-                            <a href="https://github.com/Aniketh007/An-Ensemble-Approach-for-Network-and-Server-Intrusion">
-
-                                <div class="project-content">
-                                    <h3 class="project-title">An Ensemble Approach of CNN and GRU for Network and Server
-                                    Intrusion</h3>
-
-                                <p class="project-category">This project utilizes an innovative ensemble model combining
-                                    Gated Recurrent Units (GRU) and Convolutional Neural Networks (CNN) for network and
-                                    server intrusion detection, effectively capturing both spatial and temporal patterns
-                                    in network traffic for enhanced security analysis.</p>
-                            </a>
-                        </div>
-                        </li>
-
-                        <li class="project-item content-card active" data-filter-item data-category="web development">
-                            <div class="project-content">
-                            <a href="https://github.com/Aniketh007/IKAA">
-
-                                <div class="project-content">
-                                    <h3 class="project-title">NA2- Health Data Information and Management System</h3>
-
-                                <p class="project-category">A Comprehensive software solution designed to streamline
-                                    hospital operations, including appointment scheduling, patient registration,Doctor registration, medical
-                                    records management, and billing, aiming to improve efficiency, reduce errors, and
-                                    enhance patient care.</p>
-                            </a>
-                        </div>
-                        </li>
-                        </ul>
-                    
-               </section>
-
-            </article>
-
-            <article class="blogs" data-page="blogs">
-
-                <header>
-                    <h2 class="h2 article-title">Blog</h2>
-                </header>
-
-                <section class="blog-posts">
-
-                    <ul class="blog-posts-list">
-
-                        <li class="blog-post-item">
-                            <a href="https://medium.com/@anikethadireddy/bagging-and-boosting-introduction-to-enhancing-of-machine-learning-models-68d1d3ab058a">
-
-                                <div class="blog-content">
-
-                                    <div class="blog-meta">
-                                        <p class="blog-category">Machine Learning</p>
-
-                                        <span class="dot"></span>
-
-                                        <time datetime="2022-02-23">Jan 16, 2025</time>
-                                    </div>
-
-                                    <h3 class="h3 blog-item-title">Bagging and Boosting: Introduction to Enhancing of
-                                        Machine Learning Models</h3>
-
-                                    <p class="blog-text">
-                                        Delving into the core concepts of Bagging and Boosting, we explore their impact
-                                        on model performance and the key differences that set them apart.
-                                    </p>
-
-                                </div>
-
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </article>
-
-           
-
-            <article class="achievements" data-page="achievements">
-                <header>
-                    <h2 class="h2 article-title">Publications</h2>
-                </header>
-                <section class="achievements-section">
-                    <ul class="achievements-list">
-                        <li class="achievement-item">
-                             <div class="PENBEAT">
-                            <a href="https://www.irjet.net/archives/V10/i7/IRJET-V10I741.pdf">
-                                    <h3 class="project-title">PENBEAT</h3>
-
-                                <p class="project-category">The potential idea that could have been done in
-the college days is PENBEAT. It is a device used to signal the
-user when their heart rate increases or decreases. Due to
-increase in deaths related to heart attacks, we came up with
-this idea of helping them with this IOT[Internet Of Things]
-enabled device. In this idea, we insert a sensor(pulse) inside
-the pen and connect it to button cells for power and connect
-the sensor to the mobile device making it an IOT device. With
-this, whenever there is an abnormal change in the heart rate,
-the user will be notified to control his heart rate. And if still
-the problem continues, the message will be sent to his/her
-family members. It helps in Monitoring your resting heart
-rate throughout the day</p>
-                            </a>
-                        </div>
-                        </li>
-                         <ul class="achievements-list">
-                        <li class="achievement-item">
-                             <div class="MINDMAPPER: INVESTIGATING BRAIN TUMORS THROUGH CNN TECHNIQUES">
-                            <a href="https://ieeexplore.ieee.org/document/10911880">
-                                    <h3 class="project-title">MINDMAPPER: INVESTIGATING BRAIN TUMORS THROUGH CNN TECHNIQUES</h3>
-
-                                <p class="project-category">Brain tumors pose significant health challenges, necessitating early diagnosis and effective treatment. Traditional diagnosis via MRI scans is time-consuming and prone to error. We propose a deep learning approach using convolutional neural networks (CNNs) to analyze brain tumors from MRI scans, aiming to enhance diagnostic accuracy and efficiency. Our method includes image normalization and enhancement, followed by CNN-based feature extraction and classification into tumor-present or tumor-absent categories. Training involves optimizing the loss function using gradient descent. This system achieved an accuracy of 98%, demonstrating its potential to revolutionize brain tumor diagnostics and improve patient care. Further research and clinical trials are needed for practical implementation.</p>
-                            </a>
-                        </div>
-                        </li>
-                        <ul class="achievements-list">
-                             <li class="achievement-item">
-                             <div class="UNVEILING CONSUMER SENTIMENTS: LEVERAGING THE VADER ALGORITHM FOR PRODUCT ANALYSIS IN THE DIGITAL MARKETPLACE">
-                            <a href="https://ieeexplore.ieee.org/document/10911711">
-                                    <h3 class="project-title">UNVEILING CONSUMER SENTIMENTS: LEVERAGING THE VADER ALGORITHM FOR PRODUCT ANALYSIS IN THE DIGITAL MARKETPLACE</h3>
-
-                                <p class="project-category">Customer reviews, feedbacks and comments are crucial in digital marketing, shaping product perception and quality. This paper highlights the VADER algorithm's role in product analysis, using sentiment analysis, natural language processing (NLP), keywords, and design patterns to analyze customer reviews. By converting qualitative data into actionable metrics, organizations can measure satisfaction, identify pain points, and recognize trends. The study shows that using cloud computing and big data for product analysis enables rapid capture of extensive feedback, facilitating swift, informed decisions. Results indicate the algorithm's effectiveness in providing actionable insights, supporting innovation, enhancing reputation, and driving growth. Conclusively, this research underscores the significant impact of advanced analytics on understanding consumer sentiments and improving overall customer satisfaction, thereby driving business success.</p>
-                            </a>
-                        </div>
-                        </li>
-                    <ul class="achievements-list">
-                             <li class="achievement-item">
-                             <div class="PREDICTIVE MODELING FOR CROP HEALTH AND RECOMMENDATION: LEVERAGING MACHINE LEARNING ALGORITHMS TO OPTIMIZE AGRICULTURAL SUSTAINABILITY">
-                           
-                                    <h3 class="project-title">PREDICTIVE MODELING FOR CROP HEALTH AND RECOMMENDATION: LEVERAGING MACHINE LEARNING ALGORITHMS TO OPTIMIZE AGRICULTURAL SUSTAINABILITY </h3>
-
-                                <p class="project-category">This study explores predictive modeling for sustainable harvest management, using ecological and soil factors like pH, precipitation, and nutrients. Machine learning algorithms including Random Forest, SVM, and ANN were tested, with Random Forest achieving the highest accuracy (99.32%) and F1 score (0.993). Results highlight the strength of ensemble models in optimizing crop prediction and support the role of AI in advancing precision agriculture. Future work aims to enable real-time integration with IoT devices for broader application.</p>
-                            </a>
-                        </div>
-                        </li>
-                </section>
-                <header>
-                    <h2 class="h2 article-title">Certificates</h2>
-                </header>
-                <section class="achievements-section">
-                    <ul class="achievements-list">
-                        <li class="achievement-item">
-                            <a href="https://www.coursera.org/account/accomplishments/specialization/N2L7HCZVP927" class="certif-link">
-                                <div class="certif-content">
-                                    <h3>Machine Learning Specialization by DeepLearning AI</h3>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="achievement-item">
-                            <a href="https://drive.google.com/file/d/1-1JXCDApTRjNYokybJJOqo427ufYXcPD/view" class="certif-link">
-                                <div class="certif-content">
-                                    <h3>Artificial Intelligence by Rinex Technologies</h3>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="achievement-item">
-                            <a href="https://drive.google.com/file/d/1-jCbs3Unack_VC24KUvFcAXwjh9zL0uW/view" class="certif-link">
-                                <div class="certif-content">
-                                    <h3>Advanced Python</h3>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-            </article>
+  <div id="progress"></div>
+  <canvas id="network" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav shell">
+      <a class="brand" href="#top" aria-label="Eruva Akhil home">
+        <span class="brand-mark">EA</span>
+        <span>ERUVA <b>AKHIL</b></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#research">Research</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Let's connect ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> AI / ML ENGINEER · ADELAIDE, AUSTRALIA</div>
+        <h1>Building <span class="gradient">intelligent systems</span> from models to real-world applications.</h1>
+        <p class="hero-lead">
+          AI/ML postgraduate student with hands-on experience spanning machine learning,
+          AI evaluation, computer vision, software engineering and embedded systems.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Explore my work <span>↓</span></a>
+          <a class="button ghost" href="https://github.com/Akhil-811" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a class="button ghost" href="https://www.linkedin.com/in/eruva-akhil/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
         </div>
+        <div class="hero-meta">
+          <span>Currently: <b>Master of AI & ML</b></span>
+          <span>Building at the intersection of <b>AI × Systems</b></span>
+        </div>
+      </div>
 
-    </main>
-    <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <div class="hero-visual reveal">
+        <div class="orbital-card">
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+          <div class="core">
+            <div class="core-label">AI<br>ENGINE</div>
+          </div>
+          <div class="node node-1">ML</div>
+          <div class="node node-2">CV</div>
+          <div class="node node-3">LLM</div>
+          <div class="node node-4">EDGE</div>
+          <div class="node node-5">EVAL</div>
+          <div class="scanline"></div>
+          <div class="visual-caption"><span>01</span> MODEL → EVALUATE → DEPLOY</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="signal-strip">
+      <div class="shell signal-inner">
+        <span>01 / MACHINE LEARNING</span>
+        <i>✦</i>
+        <span>02 / GENERATIVE AI</span>
+        <i>✦</i>
+        <span>03 / AI EVALUATION</span>
+        <i>✦</i>
+        <span>04 / COMPUTER VISION</span>
+        <i>✦</i>
+        <span>05 / EDGE AI</span>
+      </div>
+    </section>
+
+    <section id="work" class="section shell">
+      <div class="section-head reveal">
+        <div>
+          <span class="section-kicker">02 / SELECTED WORK</span>
+          <h2>Projects with a <span class="gradient">reason to exist.</span></h2>
+        </div>
+        <p>Curated from my AI, data, software and embedded work. Each project is presented around the problem, approach and engineering focus.</p>
+      </div>
+
+      <div class="filter-row reveal" role="group" aria-label="Project filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="ai">AI / ML</button>
+        <button class="filter" data-filter="systems">Systems</button>
+        <button class="filter" data-filter="software">Software</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project featured reveal" data-tags="ai">
+          <div class="project-top"><span class="project-number">01</span><span class="project-type">COMPUTER VISION</span></div>
+          <div class="project-body">
+            <h3>Bone Fracture Detection</h3>
+            <p>Explainable X-ray classification using Vision Transformer and Swin Transformer architectures with Grad-CAM.</p>
+            <div class="chips"><span>ViT</span><span>Swin Transformer</span><span>Grad-CAM</span><span>Explainable AI</span></div>
+            <a href="https://github.com/Akhil-811/Bone-Facture-Detection" target="_blank" rel="noreferrer">View repository ↗</a>
+          </div>
+          <div class="project-art fracture-art"><div class="xray"></div><span>VISION<br>→ INSIGHT</span></div>
+        </article>
+
+        <article class="project reveal" data-tags="ai software">
+          <div class="project-top"><span class="project-number">02</span><span class="project-type">ML ENGINEERING</span></div>
+          <div class="project-body">
+            <h3>NumCompute</h3>
+            <p>A NumPy-based ML toolkit implementing core machine-learning functionality from scratch with vectorization, numerical stability and modular design.</p>
+            <div class="chips"><span>Python</span><span>NumPy</span><span>ML from scratch</span></div>
+            <a href="https://github.com/Akhil-811/NumCompute-A-High-Performance-Numpy-Toolkit" target="_blank" rel="noreferrer">View repository ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-tags="ai software">
+          <div class="project-top"><span class="project-number">03</span><span class="project-type">APPLIED AI</span></div>
+          <div class="project-body">
+            <h3>Food & Nutrition Tracker</h3>
+            <p>AI-powered meal logging and nutrition analysis using image recognition, nutritional breakdown and personalized recommendations.</p>
+            <div class="chips"><span>Python</span><span>Computer Vision</span><span>REST APIs</span></div>
+            <a href="https://github.com/Akhil-811/Final-major-Project" target="_blank" rel="noreferrer">View repository ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-tags="systems">
+          <div class="project-top"><span class="project-number">04</span><span class="project-type">EDGE / IOT</span></div>
+          <div class="project-body">
+            <h3>MoonWatchW1</h3>
+            <p>Safety smartwatch concept combining ESP32 microcontrollers, autonomous SOS activation, evidence collection and real-time tracking.</p>
+            <div class="chips"><span>ESP32</span><span>C/C++</span><span>IoT</span><span>Safety Systems</span></div>
+          </div>
+          <div class="project-art watch-art"><div class="watch-ring">SOS</div></div>
+        </article>
+
+        <article class="project reveal" data-tags="ai">
+          <div class="project-top"><span class="project-number">05</span><span class="project-type">APPLIED ML</span></div>
+          <div class="project-body">
+            <h3>Credit Card Fraud Detection</h3>
+            <p>Imbalanced transaction classification with feature engineering, comparative models and evaluation focused on reliable fraud identification.</p>
+            <div class="chips"><span>Scikit-learn</span><span>Class imbalance</span><span>Evaluation</span></div>
+            <a href="https://github.com/Akhil-811" target="_blank" rel="noreferrer">Explore on GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project reveal" data-tags="ai systems">
+          <div class="project-top"><span class="project-number">06</span><span class="project-type">AI + WELLBEING</span></div>
+          <div class="project-body">
+            <h3>Emo Guide</h3>
+            <p>An early applied-AI project exploring emotion detection and personalized calming content using computer vision and ML tooling.</p>
+            <div class="chips"><span>Python</span><span>Keras</span><span>OpenCV</span><span>SQL</span></div>
+            <a href="https://github.com/Akhil-811" target="_blank" rel="noreferrer">Explore on GitHub ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="center-action reveal">
+        <a class="text-link" href="https://github.com/Akhil-811?tab=repositories" target="_blank" rel="noreferrer">Browse all repositories <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <div class="shell manifesto-inner reveal">
+        <span class="section-kicker">03 / HOW I THINK</span>
+        <blockquote>“I’m interested in the space where <em>models become systems</em> — reliable enough to evaluate, useful enough to deploy, and practical enough to solve real problems.”</blockquote>
+      </div>
+    </section>
+
+    <section id="experience" class="section shell">
+      <div class="section-head reveal">
+        <div>
+          <span class="section-kicker">04 / EXPERIENCE</span>
+          <h2>A path from <span class="gradient">code to intelligence.</span></h2>
+        </div>
+        <p>My work has moved across AI evaluation, data, software, machine learning and embedded systems.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">JUL 2026 — PRESENT</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="role-tag">CURRENT</span>
+            <h3>Generalist Expert (AI Contractor)</h3>
+            <h4>Mercor</h4>
+            <p>Evaluate and rank AI-generated responses through prompt analysis, comparison, fact-checking, instruction-following assessment and structured quality review.</p>
+            <div class="chips"><span>AI Evaluation</span><span>Reasoning</span><span>Quality Review</span></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">OCT 2024 — MAY 2025</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Data Engineer & Frontend Developer</h3>
+            <h4>Enerze.in</h4>
+            <p>Built responsive React interfaces for a battery e-commerce platform and supported backend/data integration, testing, debugging and performance optimization.</p>
+            <div class="chips"><span>React</span><span>REST APIs</span><span>Data</span><span>Git</span></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">OCT 2024 — DEC 2024</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Python Developer Intern</h3>
+            <h4>Infosys Springboard</h4>
+            <p>Developed an AI-powered food and nutrition application combining image-based meal recognition, nutritional analysis and accessible reporting.</p>
+            <div class="chips"><span>Python</span><span>AI</span><span>Computer Vision</span></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">NOV 2023 — JUN 2024</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Microcontroller Programmer</h3>
+            <h4>GFR Robots</h4>
+            <p>Worked on an ESP32-based safety smartwatch with autonomous SOS activation, evidence collection and real-time location tracking.</p>
+            <div class="chips"><span>ESP32</span><span>C/C++</span><span>IoT</span></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">SEP 2023 — OCT 2023</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Machine Learning Intern</h3>
+            <h4>Cognifyz</h4>
+            <p>Developed restaurant rating-prediction and recommendation models through data cleaning, feature engineering, comparative evaluation and interpretation.</p>
+            <div class="chips"><span>Regression</span><span>Recommendation</span><span>Python</span></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">MAY 2022 — JUL 2022</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Artificial Intelligence Intern</h3>
+            <h4>Rinex Technology</h4>
+            <p>Built sentiment-analysis and text-classification pipelines using NLP preprocessing, neural networks and supervised learning.</p>
+            <div class="chips"><span>NLP</span><span>Neural Networks</span><span>Classification</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section shell">
+      <div class="section-head reveal">
+        <div>
+          <span class="section-kicker">05 / RESEARCH</span>
+          <h2>Curiosity that made it <span class="gradient">to paper.</span></h2>
+        </div>
+        <p>Four AI/ML publications spanning computer vision, IoT health monitoring, sentiment analysis and sustainable agriculture.</p>
+      </div>
+
+      <div class="research-grid">
+        <article class="research-card reveal"><span>01</span><h3>MINDMAPPER</h3><p>Investigating Brain Tumors Through CNN Techniques.</p><small>Computer Vision · IEEE · 2025</small></article>
+        <article class="research-card reveal"><span>02</span><h3>PENBEAT</h3><p>Real-time heart monitoring with IoT.</p><small>IoT · Health Monitoring · IRJET</small></article>
+        <article class="research-card reveal"><span>03</span><h3>VADER SENTIMENT</h3><p>Consumer sentiment analysis for digital marketplace products.</p><small>NLP · Sentiment Analysis · IEEE</small></article>
+        <article class="research-card reveal"><span>04</span><h3>CROP HEALTH</h3><p>Predictive modelling and recommendation for agricultural sustainability.</p><small>ML · Agriculture · 2025</small></article>
+      </div>
+    </section>
+
+    <section id="about" class="section shell about-section">
+      <div class="about-photo reveal">
+        <div class="photo-frame"><img src="assets/profile.jpg" alt="Professional portrait of Eruva Akhil"></div>
+        <div class="photo-caption"><span>PROFILE / 01</span><span>AI · ML · SYSTEMS</span></div>
+      </div>
+      <div class="about-copy reveal">
+        <span class="section-kicker">06 / THE BUILDER</span>
+        <h2>AI/ML student. <span class="gradient">Systems thinker.</span></h2>
+        <p>I’m currently pursuing a Master of Artificial Intelligence and Machine Learning at Adelaide University, building on a Bachelor of Technology in AI & ML completed in 2025.</p>
+        <p>My experience spans model development, evaluation, data and frontend engineering, computer vision, NLP and embedded/IoT systems. I enjoy taking a problem from an idea to something that can actually be tested and used.</p>
+        <div class="about-facts">
+          <div><b>2026–27</b><span>Master of AI & ML</span></div>
+          <div><b>2025</b><span>B.Tech AI & ML · First Class</span></div>
+          <div><b>4+</b><span>AI/ML publications</span></div>
+          <div><b>27</b><span>GitHub repositories</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section lab-section">
+      <div class="shell lab reveal">
+        <div class="lab-head"><span class="section-kicker">07 / AI LAB</span><span class="status"><i></i> ACTIVE</span></div>
+        <div class="lab-grid">
+          <div>
+            <h2>Currently <span class="gradient">exploring.</span></h2>
+            <p>The next layer of my work is about making AI systems more useful, reliable and deployable.</p>
+          </div>
+          <div class="lab-items">
+            <div><span>01</span><b>Generative AI</b><small>LLMs · RAG · Agents</small></div>
+            <div><span>02</span><b>AI Evaluation</b><small>Reliability · Reasoning · Quality</small></div>
+            <div><span>03</span><b>AI Security</b><small>Threats · Governance · Safety</small></div>
+            <div><span>04</span><b>Edge Intelligence</b><small>Efficient models · Embedded systems</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell education">
+      <div class="section-head reveal">
+        <div><span class="section-kicker">08 / EDUCATION</span><h2>Learning with <span class="gradient">intent.</span></h2></div>
+      </div>
+      <div class="edu-grid">
+        <article class="edu-card reveal"><span>2026 — 2027</span><h3>Master of Artificial Intelligence & Machine Learning</h3><p>Adelaide University</p><small>Programming for AI · Statistical Foundations · Ethics, Privacy & Security · IT Project Management</small></article>
+        <article class="edu-card reveal"><span>2021 — 2025</span><h3>B.Tech in Artificial Intelligence & Machine Learning</h3><p>Vardhaman College of Engineering · JNTU Hyderabad</p><small>CGPA 8.19/10 · First Class</small></article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="shell contact-inner reveal">
+        <span class="section-kicker">09 / CONTACT</span>
+        <h2>Have an interesting <span class="gradient">AI problem?</span></h2>
+        <p>I'm open to conversations around AI/ML engineering, research, internships, graduate opportunities and intelligent systems.</p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:akkuai7485@gmail.com">Email me ↗</a>
+          <a class="button ghost" href="Eruva-Akhil-Resume.pdf" target="_blank">View résumé ↗</a>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/Akhil-811" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/eruva-akhil/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:akkuai7485@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <span>© 2026 Eruva Akhil</span>
+    <span>Designed around AI × Systems</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
