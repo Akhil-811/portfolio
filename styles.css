@@ -286,3 +286,53 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--cyan);outline-offse
   .extra-credentials>div{padding:17px 18px}
   .contact-section{padding-top:100px}
 }
+
+
+/* =========================================
+   FINAL SURGICAL POLISH — SPACING + AI LAB
+   ========================================= */
+
+/* The archive should arrive sooner; the previous rule created a document-like pause. */
+.archive{margin-top:30px;padding-top:0}
+.archive .section-head{margin-top:24px}
+.archive-grid{margin-top:0}
+
+/* Keep section transitions deliberate without giant dead zones. */
+.archive + .section{padding-top:72px}
+.section.archive + .journey{padding-top:0}
+
+/* AI Lab: explicitly separate category labels from their technology lines. */
+.lab-items-polished>div{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+.lab-items-polished>div span{
+  display:block;
+  margin:0 0 12px;
+  line-height:1.2;
+}
+.lab-items-polished>div b{
+  display:block;
+  margin:0 0 7px;
+  line-height:1.25;
+}
+.lab-items-polished>div small{
+  display:block;
+  line-height:1.55;
+  max-width:32ch;
+}
+
+/* Avoid section-number collisions when labels wrap. */
+.section-kicker{line-height:1.35}
+
+/* A little more air at the end of archive copy, but not a huge gap. */
+.archive .section-head p{max-width:510px}
+
+/* Mobile: the archive should remain compact. */
+@media(max-width:650px){
+  .archive{margin-top:18px}
+  .archive + .section{padding-top:58px}
+  .archive .section-head{margin-top:18px}
+  .lab-items-polished>div{min-height:120px}
+}
