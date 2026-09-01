@@ -156,3 +156,133 @@ h1{font-size:clamp(53px,6.4vw,84px);line-height:.97;letter-spacing:-.06em;margin
  .achievement-row{grid-template-columns:1fr 1fr}.achievement-row>div{min-height:70px}
  .archive-grid{grid-template-columns:1fr}.archive .section-head{margin-bottom:25px}
 }
+
+
+/* =========================
+   FINAL PRODUCTION POLISH
+   ========================= */
+
+/* More deliberate section rhythm */
+.section + .section{padding-top:96px}
+.section-head{margin-bottom:30px}
+.section-kicker{display:inline-flex;align-items:center;gap:8px}
+.section-kicker:before{content:"";width:18px;height:1px;background:currentColor;opacity:.55}
+
+/* Featured work: clearer hierarchy */
+.project.featured{background:
+  radial-gradient(520px 280px at 90% 15%,rgba(88,229,240,.065),transparent 65%),
+  linear-gradient(145deg,rgba(18,27,47,.96),rgba(9,13,24,.96))}
+.project.featured .project-body{max-width:62%}
+.project.featured h3{font-size:clamp(27px,3vw,35px)}
+.project:not(.featured) h3{font-size:21px}
+.project-top span:last-child{opacity:.72}
+
+/* Compact archive reads like an index, not another project wall */
+.archive-grid a{min-height:68px;display:flex;flex-direction:column;justify-content:center}
+.archive-grid a b{font-family:"Space Grotesk";font-weight:600}
+
+/* Timeline readability */
+.timeline-content{position:relative}
+.timeline-content:before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:2px;border-radius:2px;background:linear-gradient(var(--cyan),transparent)}
+.timeline-content h3{letter-spacing:-.025em}
+.timeline-content p{max-width:760px}
+
+/* Skills: stronger category hierarchy */
+.skills-grid .skill-card{min-height:205px}
+.skill-card h3{letter-spacing:-.025em}
+.skill-card p{max-width:270px}
+
+/* Research: publication metadata + link feel intentional */
+.research-card{position:relative}
+.research-card>a{margin-top:13px;font-size:8px;color:var(--cyan);font-weight:700}
+.research-card h3{letter-spacing:-.025em}
+
+/* Credentials: fix dense list presentation */
+.credential-columns{align-items:stretch}
+.credential-block ul{list-style:none;padding:0;margin:0;display:grid;gap:0}
+.credential-block li{
+  position:relative;padding:9px 0 9px 17px;border-top:1px solid rgba(255,255,255,.065);
+  color:var(--muted);font-size:10px;line-height:1.45
+}
+.credential-block li:first-child{border-top:0}
+.credential-block li:before{
+  content:"";position:absolute;left:0;top:16px;width:5px;height:5px;border-radius:50%;
+  background:var(--cyan);box-shadow:0 0 9px rgba(88,229,240,.28)
+}
+.extra-credentials{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:0;padding:0;overflow:hidden
+}
+.extra-credentials>div{padding:19px 21px;border-right:1px solid var(--line)}
+.extra-credentials>div:last-child{border-right:0}
+.extra-credentials b{display:block;font-family:"Space Grotesk";font-size:10px;margin-bottom:7px}
+.extra-credentials span{display:block;color:var(--muted);font-size:9px;line-height:1.55}
+
+/* Journey: make the years visually dominant */
+.journey-card{display:flex;flex-direction:column}
+.journey-card>span{font-family:"Space Grotesk";font-weight:700}
+.journey-card b{font-family:"Space Grotesk";font-size:18px;line-height:1.1;margin-top:25px;letter-spacing:-.025em}
+.journey-card p{margin-top:9px}
+
+/* Leadership cards */
+.lead-card{min-height:205px}
+.lead-card>span{font-family:"Space Grotesk";font-size:7px;color:var(--cyan);letter-spacing:.13em}
+.lead-card h3{letter-spacing:-.025em}
+
+/* AI Lab */
+.lab{box-shadow:0 25px 75px rgba(0,0,0,.18)}
+.lab-items>div{transition:background .2s}
+.lab-items>div:hover{background:#11182a}
+.lab-items b{font-family:"Space Grotesk"}
+
+/* Education */
+.edu-card{min-height:245px}
+.edu-card h3{letter-spacing:-.025em}
+
+/* GitHub cards */
+.repo-grid{align-items:stretch}
+.repo-card{display:flex;flex-direction:column;min-height:155px}
+.repo-card h3{font-family:"Space Grotesk";font-size:16px;line-height:1.1;letter-spacing:-.02em;margin:9px 0 0}
+.repo-card p{flex:1;line-height:1.5}
+.repo-meta{display:flex;justify-content:space-between;align-items:center;margin-top:9px;font-size:8px;color:#6f7b92}
+.repo-meta b{color:var(--cyan);font-weight:700}
+
+/* Contact should feel like a deliberate finish */
+.contact-section{position:relative;overflow:hidden}
+.contact-section:before{
+  content:"";position:absolute;left:50%;top:10%;width:520px;height:240px;
+  transform:translateX(-50%);border-radius:50%;
+  border:1px solid rgba(88,229,240,.08);box-shadow:0 0 100px rgba(88,229,240,.05)
+}
+.contact-inner{position:relative}
+.contact-inner h2{max-width:780px;margin-left:auto;margin-right:auto}
+
+/* Better focus states */
+a:focus-visible,button:focus-visible{outline:2px solid var(--cyan);outline-offset:4px;border-radius:8px}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+
+/* Tablet */
+@media(max-width:1000px){
+  .section + .section{padding-top:78px}
+  .extra-credentials{grid-template-columns:1fr}
+  .extra-credentials>div{border-right:0;border-bottom:1px solid var(--line)}
+  .extra-credentials>div:last-child{border-bottom:0}
+}
+
+/* Mobile */
+@media(max-width:650px){
+  .shell{width:min(calc(100% - 28px),var(--max))}
+  .section-head{margin-bottom:24px}
+  .project.featured .project-body{max-width:100%}
+  .project.featured h3{font-size:26px}
+  .timeline-content{padding:18px 18px 18px 20px}
+  .timeline-content:before{top:15px;bottom:15px}
+  .credential-block{padding:19px}
+  .credential-block li{font-size:9px}
+  .extra-credentials>div{padding:17px 18px}
+  .contact-section{padding-top:100px}
+}
